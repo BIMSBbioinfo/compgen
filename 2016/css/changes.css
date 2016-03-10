@@ -22,7 +22,7 @@ dl dt a:hover {
 }
 
 h1, h2, h3 {
-    color: #f47721;
+    color: #f69961;
     text-shadow: 1px 1px 1px #000;
     font-weight: bold; }
 
@@ -36,9 +36,10 @@ h1, h2, h3 {
 
 .details {
     background-color: #8bd3dd;
-    border-top: 10px solid #f69961; }
+    border-top: 10px solid #f69961;
+    color: #005881; }
 .details h3 {
-    text-shadow: none;
+    text-shadow: 1px 1px 1px #669ba2;
     text-transform: uppercase;
     font-weight: bold; }
 
