@@ -29,6 +29,9 @@ h1, h2, h3 {
     font-weight: bold; }
 
 .panel {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.1rem;
     background-color: #3fbfb7;
     border: none;
     box-shadow: 10px 10px 10px #669ba2;
@@ -36,6 +39,7 @@ h1, h2, h3 {
 .panel * {
     color: #fff; }
 .panel .deadline {
+    display: block;
     margin-top: 1rem;
     color: #005881; }
 
