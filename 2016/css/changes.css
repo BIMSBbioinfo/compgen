@@ -10,6 +10,8 @@ a:hover {
 a, a:visited {
        font-weight: bold; }
 
+dl {
+    font-size: 1.1rem; }
 dl dt {
     font-variant: normal; }
 dl dt a {
