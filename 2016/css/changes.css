@@ -35,6 +35,9 @@ h1, h2, h3 {
     color: #fff; }
 .panel * {
     color: #fff; }
+.panel .deadline {
+    margin-top: 1rem;
+    color: #005881; }
 
 .details {
     background-color: #8bd3dd;
