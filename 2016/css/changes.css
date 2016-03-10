@@ -13,7 +13,7 @@ a, a:visited {
 dl dt {
     font-variant: normal; }
 dl dt a {
-    color: #ed6e00;
+    color: #005881;
     font-weight: bold;
 }
 dl dt a:hover {
@@ -27,14 +27,17 @@ h1, h2, h3 {
 
 .panel {
     background-color: #3fbfb7;
+    border: none;
+    box-shadow: 10px 10px 10px #669ba2;
     color: #fff; }
 .panel * {
     color: #fff; }
 
 .details {
     background-color: #8bd3dd;
-    border-top: 10px solid #f69961;
-}
+    border-top: 10px solid #f69961; }
+.details h3 {
+    text-shadow: none; }
 
 footer {
     padding-top: 2em; }
