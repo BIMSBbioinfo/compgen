@@ -34,21 +34,21 @@ h1, h2, h3 {
     line-height: 2.1rem;
     background-color: #084598;
     border: none;
-    box-shadow: 10px 10px 10px #ffffff;
+    box-shadow: 10px 10px 10px #000;
     color: #fff; }
 .panel * {
     color: #fff; }
 .panel .deadline {
     display: block;
     margin-top: 1rem;
-    color: #005881; }
+    color: #fff; }
 
 .details {
     background-color: #139CE9;
     border-top: 10px solid #E30278;
     color: #005881; }
 .details h3 {
-    text-shadow: 1px 1px 1px #ffffff;
+    text-shadow: 1px 1px 1px #000;
     text-transform: uppercase;
     font-weight: bold; }
 
