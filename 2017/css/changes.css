@@ -15,7 +15,7 @@ dl {
 dl dt {
     font-variant: normal; }
 dl dt a {
-    color: #005881;
+    color: #D6F9FB;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -24,7 +24,7 @@ dl dt a:hover {
 }
 
 h1, h2, h3 {
-    color: #f69961;
+    color: #E30278;
     text-shadow: 1px 1px 1px #000;
     font-weight: bold; }
 
