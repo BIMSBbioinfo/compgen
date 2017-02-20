@@ -34,7 +34,7 @@ h1, h2, h3 {
     line-height: 2.1rem;
     background-color: #084598;
     border: none;
-    box-shadow: 10px 10px 10px #669ba2;
+    box-shadow: 10px 10px 10px #ffffff;
     color: #fff; }
 .panel * {
     color: #fff; }
@@ -48,7 +48,7 @@ h1, h2, h3 {
     border-top: 10px solid #E30278;
     color: #005881; }
 .details h3 {
-    text-shadow: 1px 1px 1px #669ba2;
+    text-shadow: 1px 1px 1px #ffffff;
     text-transform: uppercase;
     font-weight: bold; }
 
