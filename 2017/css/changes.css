@@ -1,26 +1,42 @@
 body {
     font-size: 120%;
+    background-color: #0d5ba7;
+}
+
+div.header {
+    border-radius: 0 0 5px 5px;
+}
+
+div.header, div.info, div.sponsors {
+    background-color: #fff;
+}
+div.info, div.sponsors {
+    padding-top: 2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
 }
 
 p {
     font-size: 1.2rem; }
-
-a:hover {
-    color: #ed6e00; }
-a, a:visited {
-       font-weight: bold; }
 
 dl {
     font-size: 1.1rem; }
 dl dt {
     font-variant: normal; }
 dl dt a {
-    color: #D6F9FB;
+    color: #0d5ba7;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 .2rem;
     font-weight: bold;
-    text-transform: uppercase;
 }
 dl dt a:hover {
-    color: #00b8dc;
+    color: #fff;
+    background-color: #0d5ba7;
+}
+dl dd {
+    color: #fff;
+    display: inline-block;
 }
 
 h1, h2, h3 {
@@ -30,25 +46,29 @@ h1, h2, h3 {
 
 .panel {
     font-size: 1.5rem;
-    font-weight: bold;
     line-height: 2.1rem;
-    background-color: #084598;
+    background-color: #e6007d;
     border: none;
-    box-shadow: 10px 10px 10px #000;
+    border-radius: 5px;
     color: #fff; }
 .panel * {
     color: #fff; }
+.panel a:hover {
+    color: #e6007d;
+    background-color: #fff; }
 .panel .deadline {
     display: block;
     margin-top: 1rem;
+    font-style: italic;
     color: #fff; }
 
 .details {
-    background-color: #139CE9;
-    border-top: 10px solid #E30278;
-    color: #005881; }
+    background-color: #0d5ba7;
+    padding-top: 1rem;
+    color: #fff; }
 .details h3 {
-    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+    text-shadow: none;
     text-transform: uppercase;
     font-weight: bold; }
 
