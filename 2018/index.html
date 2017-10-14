@@ -8,6 +8,7 @@
     <meta name="author" content="Altuna Akalin, Ricardo Wurmus"/>
     <meta name="copyright" content="BIMSB, Copyright (c) 2015"/>
     <link rel="stylesheet" href="css/foundation.css"/>
+    <link href="https://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/changes.css"/>
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -101,6 +102,30 @@
 
         <h2 id="application">Application</h2>
         <p><b>Application deadline: 1 March 2018</b> <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NjB0c2NzNjltNmEyYmJmNnF2N3RrbjR0cXAgYWFrYWxpbkBt&amp;tmsrc=aakalin%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+            <!-- 2. Include script -->
+            <script type="text/javascript">(function () {
+            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+                var h = d[g]('body')[0];h.appendChild(s); }})();
+            </script>
+
+            <!-- 3. Place event data -->
+            <span class="addtocalendar atc-style-blue">
+              <var class="atc_event">
+              <var class="atc_date_start">2018-03-01 12:00:00</var>
+              <var class="atc_date_end">2018-03-01 18:00:00</var>
+              <var class="atc_timezone">Europe/Berlin</var>
+              <var class="atc_title">Compgen2018 application deadline</var>
+              <var class="atc_description">May the force be with you</var>
+              <var class="atc_location">Berlin</var>
+              <var class="atc_organizer">Altuna Akalin</var>
+              <var class="atc_organizer_email">compgen@mdc-berlin.de</var>
+            </var>
+            </span>
+        
         </p>
         <p>
           Candidates must apply by filling in
