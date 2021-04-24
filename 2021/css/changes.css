@@ -1,6 +1,6 @@
 body {
     font-size: 120%;
-    background-color: #0d5ba7;
+    background-color: #1273B2;
 }
 
 div.header {
@@ -24,7 +24,7 @@ dl {
 dl dt {
     font-variant: normal; }
 dl dt a {
-    color: #0d5ba7;
+    color: #1273B2;
     background-color: #fff;
     display: inline-block;
     padding: 0 .2rem;
@@ -32,7 +32,7 @@ dl dt a {
 }
 dl dt a:hover {
     color: #fff;
-    background-color: #0d5ba7;
+    background-color: #1273B2;
 }
 dl dd {
     color: #fff;
@@ -40,7 +40,7 @@ dl dd {
 }
 
 h1, h2, h3 {
-    color: #E30278;
+    color: #E5097E;
     text-shadow: 1px 1px 1px #000;
     font-weight: bold; }
 
@@ -63,7 +63,7 @@ h1, h2, h3 {
     color: #fff; }
 
 .details {
-    background-color: #0d5ba7;
+    background-color: #1273B2;
     padding-top: 1rem;
     color: #fff; }
 .details h3 {
